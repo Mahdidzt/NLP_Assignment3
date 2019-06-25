@@ -1,0 +1,6 @@
+D:\Doros\term 8\NLP\Assignment\NLP_Assingmnet3_cs\NLP_Assingmnet3_cs\bin\Debug\NLP_Assingmnet3_cs.exe.config
+D:\Doros\term 8\NLP\Assignment\NLP_Assingmnet3_cs\NLP_Assingmnet3_cs\bin\Debug\NLP_Assingmnet3_cs.exe
+D:\Doros\term 8\NLP\Assignment\NLP_Assingmnet3_cs\NLP_Assingmnet3_cs\bin\Debug\NLP_Assingmnet3_cs.pdb
+D:\Doros\term 8\NLP\Assignment\NLP_Assingmnet3_cs\NLP_Assingmnet3_cs\obj\Debug\NLP_Assingmnet3_cs.csprojResolveAssemblyReference.cache
+D:\Doros\term 8\NLP\Assignment\NLP_Assingmnet3_cs\NLP_Assingmnet3_cs\obj\Debug\NLP_Assingmnet3_cs.exe
+D:\Doros\term 8\NLP\Assignment\NLP_Assingmnet3_cs\NLP_Assingmnet3_cs\obj\Debug\NLP_Assingmnet3_cs.pdb
