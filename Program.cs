@@ -89,51 +89,5 @@ namespace NLP_Assingmnet3_cs
 
             return d[n, m];
         }
-
-        private static int editDistDP(String str1, String str2, int m, int n)
-        {
-            // Create a table to store
-            // results of subproblems
-            int[,] dp = new int[m + 1, n + 1];
-
-            // Fill d[][] in bottom up manner
-            for (int i = 0; i <= m; i++)
-            {
-                for (int j = 0; j <= n; j++)
-                {
-                    // If first string is empty, only option is to
-                    // insert all characters of second string
-                    if (i == 0)
-
-                        // Min. operations = j
-                        dp[i, j] = j;
-
-                    // If second string is empty, only option is to
-                    // remove all characters of second string
-                    else if (j == 0)
-
-                        // Min. operations = i
-                        dp[i, j] = i;
-
-                    // If last characters are same, ignore last char
-                    // and recur for remaining string
-                    else if (str1[i - 1] == str2[j - 1])
-                        dp[i, j] = dp[i - 1, j - 1];
-                    else
-                        dp[i, j] = 1 + min(dp[i, j - 1],
-                                        dp[i - 1, j],
-                                        dp[i - 1, j - 1]);
-                }
-            }
-
-            return dp[m, n];
-        }
-
-        private static int min(int x, int y, int z)
-        {
-            if (x <= y && x <= z) return x;
-            if (y <= x && y <= z) return y;
-            else return z;
-        }
     }
 }
